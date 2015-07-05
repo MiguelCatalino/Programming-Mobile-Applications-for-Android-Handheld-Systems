@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/miguelcatalino/Desktop/Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems%20Part%202/coursera-android-labs-master/Lab6_NotificationsLab/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+</resources>

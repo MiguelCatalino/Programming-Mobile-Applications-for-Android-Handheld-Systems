@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityLoaderActivity" >
+    
+    <Button
+        android:id="@+id/start_bookmarks_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button3" />
+    
+</LinearLayout><!-- From: file:/Users/miguelcatalino/Desktop/Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems%20Part%201/coursera-android-labs-master/Lab3b_PermissionsLab/app/src/main/res/layout/activity_loader_activity.xml -->

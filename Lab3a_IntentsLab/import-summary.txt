@@ -1,0 +1,133 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Users/miguelcatalino/Desktop/Programming Mobile Applications for Android Handheld Systems Part 1/coursera-android-labs-master/Intents/Lab3a_IntentsLab
+                                         -      -            -   -       -        -       -    -                                                       
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Lab-Intents.pdf
+* Lab3a_IntentsLab.iml
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/robotium-solo-5.3.1.jar
+* app/src/
+* app/src/androidTest/
+* app/src/androidTest/java/
+* app/src/androidTest/java/course/
+* app/src/androidTest/java/course/labs/
+* app/src/androidTest/java/course/labs/intentslab/
+* app/src/androidTest/java/course/labs/intentslab/tests/
+* app/src/androidTest/java/course/labs/intentslab/tests/ExplicitTest.java
+* app/src/androidTest/java/course/labs/intentslab/tests/ImplicitTest.java
+* app/src/androidTest/res/
+* app/src/androidTest/res/.gitignore
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/course/
+* app/src/main/java/course/labs/
+* app/src/main/java/course/labs/intentslab/
+* app/src/main/java/course/labs/intentslab/ActivityLoaderActivity.java
+* app/src/main/java/course/labs/intentslab/ExplicitlyLoadedActivity.java
+* app/src/main/res/
+* app/src/main/res/.DS_Store
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_loader_activity.xml
+* app/src/main/res/layout/explicitly_loaded_activity.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values/
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/resources/
+* app/src/main/resources/.DS_Store
+* app/src/main/resources/course/
+* app/src/main/resources/course/.DS_Store
+* app/src/main/resources/course/labs/
+* app/src/main/resources/course/labs/.DS_Store
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* intentlab.mp4
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+robotium-solo-5.3.1.jar => com.jayway.android.robotium:robotium-solo:5.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/course/.DS_Store => app/src/main/resources/course/.DS_Store
+* src/course/labs/.DS_Store => app/src/main/resources/course/labs/.DS_Store
+* Test/libs/robotium-solo-5.3.1.jar => app/libs/robotium-solo-5.3.1.jar
+* Test/res/ => app/src/androidTest/res/
+* Test/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
