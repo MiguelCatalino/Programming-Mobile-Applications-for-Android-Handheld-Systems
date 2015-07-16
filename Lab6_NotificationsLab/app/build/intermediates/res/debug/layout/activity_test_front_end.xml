@@ -33,4 +33,4 @@
         android:layout_margin="@dimen/base_margin"
         android:text="@string/start_main_activity" />
 
-</LinearLayout><!-- From: file:/Users/miguelcatalino/Desktop/Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems%20Part%202/coursera-android-labs-master/Lab6_NotificationsLab/app/src/main/res/layout/activity_test_front_end.xml -->
+</LinearLayout><!-- From: file:/Users/miguelcatalino/Desktop/Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems/Lab6_NotificationsLab/app/src/main/res/layout/activity_test_front_end.xml -->
